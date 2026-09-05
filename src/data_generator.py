@@ -89,3 +89,6 @@ df["kelly_wager_pct"] = [calculate_kelly(d, p) for d,p in zip(df["dk_decimal_odd
 print(df.sort_values(by="ev_pct", ascending = False).head())
 
 df.to_csv("data/synthetic_props.csv", index=False)
+
+
+
