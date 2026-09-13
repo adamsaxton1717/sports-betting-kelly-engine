@@ -41,15 +41,15 @@ Candidate promotional entries will be evaluated using their estimated joint prob
 
 The project will implement Fractional Kelly optimization to determine bet sizing based on the full distribution of possible returns. Quarter Kelly will be used as the primary risk-management strategy.
 
-### Bankroll Simulation
+### Bankroll Simulation & Risk Analysis
 
 Monte Carlo simulation will be used to compare staking strategies and analyze:
 
-* Bankroll growth
+* Bankroll growth and expected return
 * Return volatility
+* Sharpe ratio
 * Maximum drawdown
 * Risk of ruin
-* Risk-adjusted performance
 
 ## Future Extensions
 
